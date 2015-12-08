@@ -6,11 +6,6 @@
 		$('span.sectionHead').click(function(evt){
 			var ol = $(this).parent().next("ol");
 			ol.toggleClass("hide");
-			// if(ol.hasClass("hide")){
-			// 	$(this).find("img").attr("src","/images/expand_all.gif");
-			// }else{
-			// 	$(this).find("img").attr("src","/images/collapse_all.gif");
-			// }
 			$(this).find("img").toggleClass("hide");
 		});
 
